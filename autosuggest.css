@@ -1,0 +1,35 @@
+.as-wrapper {
+    position: relative;
+}
+
+    .as-wrapper .as-menu {
+        position: absolute;
+        z-index: 1000;
+        width: 100%;
+        display: none;
+        background-color: #FFF;
+    }
+
+    .as-wrapper .as-selected {
+        /*background-color: #f5f5f5;*/
+        color: #FFF;
+        background-color: #07d;
+    }
+
+.as-align-left {
+    text-align: left;
+}
+
+.as-wrapper .sub-value {
+    color: gray !important;
+    font-size: 12px;
+}
+
+.as-align-right {
+    text-align: right;
+}
+
+
+.as-align-center {
+    text-align: center;
+}
